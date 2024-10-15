@@ -24,7 +24,7 @@ const Navbar = ({ className }: { className?: string }) => {
 
     return (
         <motion.div
-            initial={{ y: 100 }}
+            initial={{ y: -150 }}
             animate={{ y: isVisible ? -150 : 0 }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
             className={cn(
